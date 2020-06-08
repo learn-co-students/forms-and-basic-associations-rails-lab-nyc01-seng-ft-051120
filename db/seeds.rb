@@ -8,6 +8,13 @@
 
 # ID3 tag music genres are surprisingly specific.
 
+rihanna = Artist.create(name: "Rihanna")
+drake = Artist.create(name: "Drake")
+taylor = Artist.create(name: "Taylor Swift")
+you_belong_with_me = Song.create(title: "You Belong With Me", artist: taylor)
+started_from_the_bottom = Song.create(title: "Started From The Bottom", artist: drake)
+pon_de_replay = Song.create(title: "Pon de Replay", artist: rihanna)
+
 genres = Hash[[
   "Blues",
   "Classic Rock",
